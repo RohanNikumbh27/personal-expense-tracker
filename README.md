@@ -16,11 +16,11 @@
   2. Add the .env file in your backend folder (If not provided, you can mail to rohannikumbh2793@gmail.com).
   3. npm install
   4. Add new terminal, (make two terminals one for backend and other for frontend).
-      a) In first terminal type commands
-         * cd backend
-         * npm run dev
-      b) In second terminal type commands
-         * cd frontend
-         * npm run dev
+  5. In first terminal type commands
+         1) cd backend
+         2) npm run dev
+  6. In second terminal type commands
+         1) cd frontend
+         2) npm run dev
 * Go to web browser and type http://localhost:3000/ and you can use this application
   
