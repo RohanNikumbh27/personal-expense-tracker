@@ -15,12 +15,12 @@
   1. git clone https://github.com/RohanNikumbh27/personal-expense-tracker.git
   2. Add the .env file in your backend folder (If not provided, you can mail to rohannikumbh2793@gmail.com).
   3. npm install
-  4. Add new terminal, now you will be having two terminals
+  4. Add new terminal, (make two terminals one for backend and other for frontend).
       a) In first terminal type commands
-         - cd backend
-         - npm run dev
+         * cd backend
+         * npm run dev
       b) In second terminal type commands
-         - cd frontend
-         - npm run dev
+         * cd frontend
+         * npm run dev
 * Go to web browser and type http://localhost:3000/ and you can use this application
   
