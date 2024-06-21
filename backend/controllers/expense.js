@@ -12,7 +12,6 @@ exports.handleAddExpense = async (req, res) => {
     date,
   });
 
-  console.log(expense);
   try {
     if (!title || !category || !description || !date) {
       return res.status(400).json({ message: "All fields are required" });
@@ -37,7 +36,6 @@ exports.handleGetExpenses = async (req, res) => {
   try {
     const incomeList = await ExpenseSchema.find({}).sort({ createdAt: -1 });
     res.status(200).json(incomeList);
-    console.log("Income list is here:", incomeList);
   } catch (error) {
     res
       .status(500)
